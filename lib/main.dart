@@ -38,11 +38,12 @@ class DashboardPage extends StatelessWidget {
           unselectedItemColor: Colors.black,
           items: [
             BottomNavigationBarItem(
-                icon: Icon(Icons.home, color: textColor), label: 'Home'),
+                icon: Icon(Icons.home, color: Colors.black), label: 'Home'),
             BottomNavigationBarItem(
                 icon: Icon(Icons.search, color: textColor), label: 'Search'),
-            BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-            BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home')
+            BottomNavigationBarItem(icon: Icon(Icons.favorite), label: 'Home'),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.account_circle_sharp), label: 'Home')
           ]),
       body: SafeArea(
         child: Column(
@@ -169,7 +170,7 @@ class DashboardPage extends StatelessWidget {
                                       width: 55.w,
                                       child: CircleAvatar(
                                         backgroundImage: AssetImage(
-                                            'assets/images/user5.jpg'),
+                                            'assets/images/user3.jpg'),
                                       ),
                                     ),
                                   ),

@@ -69,7 +69,7 @@ Widget postWidget() {
             Row(
               children: [
                 Icon(
-                  Icons.heart_broken,
+                  Icons.favorite,
                   color: Colors.redAccent,
                   size: 25.sp,
                 ),
